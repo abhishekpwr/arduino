@@ -1,20 +1,25 @@
-// Blinking the LED hooked to pin 13.
+// Blinking externel LED connected to pin 10
 void setup() {
+  // put your setup code here, to run once:
 
-  pinMode(13, OUTPUT);
+  pinMode(10, OUTPUT);
 
 }
 
 void loop() {
-  // LED ON
-  digitalWrite(13, HIGH);
+  // put your main code here, to run repeatedly:
 
-  delay(500);
+  // LED ON
+  digitalWrite(10, HIGH);
+
+  // 300 milliseconds delay
+  delay(300);
 
   // LED OFF
-  digitalWrite(13, LOW);
-  
-  delay(500);
+  digitalWrite(10, LOW);
+ 
+  // 300 milliseconds delay
+  delay(300);
 
 }
 
